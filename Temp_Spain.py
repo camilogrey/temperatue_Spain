@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import t
 from scipy.stats import zscore
 # leer el file
-df = pd.read_excel("C:/Users/camil/Documents/COURSES/Diplomado Data Sience/Data Sciences/Kaggle/Temp_Spain/Temperature_Spain_vs_Madrid.xlsx",sheet_name=None)
+df = pd.read_excel("Route",sheet_name=None)
 # Data wrangling
 temp_Spain = df["avg_tem_Spain"]
 temp_Spain= temp_Spain.rename(columns={'Avg. Temp (°C) Spain': 'Avg. Temp (°C)'})
