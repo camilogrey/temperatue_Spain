@@ -9,7 +9,7 @@ from seaborn import load_dataset
 from scipy.stats import t
 from scipy.stats import zscore
 
-df = pd.read_excel("C:/Users/camil/Documents/COURSES/Diplomado Data Sience/Data Sciences/Kaggle/temp_Spain/Temperature_Spain_vs_Madrid.xlsx",sheet_name=None)
+df = pd.read_excel("Route",sheet_name=None)
 
 temp_Sevilla = df["avg_tem_Sevilla"]
 temp_Sevilla['Month'] = pd.to_datetime(temp_Sevilla['Month'], format='%Y-%m')
